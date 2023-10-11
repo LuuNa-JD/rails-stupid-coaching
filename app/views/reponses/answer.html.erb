@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Réponse du Coach</title>
+  <link rel="stylesheet" type="text/css" href="/assets/application.css">
+</head>
+<body>
+  <div id="answer-page">
+    <h2>Question posée au coach :</h2>
+    <div id="response">
+    <p><%= params[:question] %></p>
+    </div>
+
+    <h2>Réponse du coach :</h2>
+    <div id="response">
+      <p><%= @answer %></p>
+    </div>
+
+    <button id="return-button" onclick="window.location.href='/ask'" type="button">Retour</button >
+  </div>
+</body>
+</html>

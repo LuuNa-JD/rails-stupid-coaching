@@ -13,3 +13,82 @@
  *= require_tree .
  *= require_self
  */
+
+ #ask-page {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#ask-form {
+  text-align: center;
+}
+
+#ask-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#question {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#ask-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#ask-button:hover {
+  background-color: #2980b9;
+}
+
+
+#answer-page {
+  background-color: #eaf5f0;
+  padding: 20px;
+  border: 2px solid #2ecc71;
+  border-radius: 5px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#response {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#return-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#return-button:hover {
+  background-color: #2980b9;
+}
